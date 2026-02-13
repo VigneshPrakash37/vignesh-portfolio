@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vignesh Prakash | Engineer, Planner & Creator</title>
+  <meta name="description" content="Personal brand and startup hub of Vignesh Prakash. Focused on engineering, urban planning, and high-performance digital systems.">
+  <meta name="keywords" content="Vignesh Prakash, Startly, Engineer, Urban Planning, MAHSR, Metro, Full Stack Developer">
+  
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Vignesh Prakash | Building for the Future">
+  <meta property="og:description" content="Architecting experiences that scale. From infrastructure to digital OS.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              500: '#3b82f6',
+              600: '#2563eb',
+              900: '#1e3a8a',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      scroll-behavior: smooth;
+    }
+    .apple-glass {
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+    }
+    .dark .apple-glass {
+      background: rgba(15, 23, 42, 0.7);
+    }
+    .gradient-text {
+      background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .section-spacing {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
+    /* Hide scrollbar but keep functionality */
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+  </style>
+</head>
+<body class="bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-100 transition-colors duration-300">
+  <div id="root"></div>
+<script type="module" src="/src/main.tsx"></script>
+</body>
+</html>
