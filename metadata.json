@@ -1,0 +1,6 @@
+
+{
+  "name": "STARTLY - Personal Brand & Startup Hub",
+  "description": "A high-performance, minimalistic personal branding platform featuring a project showcase, blog CMS, startup dashboard, and AI-powered daily insights.",
+  "requestFramePermissions": ["camera", "microphone"]
+}
