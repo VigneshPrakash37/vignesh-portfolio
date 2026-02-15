@@ -1,9 +1,9 @@
 PERSONAL_INFO
 import React, { useState, useEffect, useMemo } from 'react';
-import { Navigation } from "./components/Navigation";
-import { ProjectCard } from "./components/ProjectCard";
-import { SectionHeader } from "./components/SectionHeader";
-import { AdminPanel } from "./components/AdminPanel";
+import { Navigation } from "./components/Navigation.tsx";
+import { ProjectCard } from "./components/ProjectCard.tsx";
+import { SectionHeader } from "./components/SectionHeader.tsx";
+import { AdminPanel } from "./components/AdminPanel.tsx";
 import { PERSONAL_INFO, INITIAL_STATS } from './constants';
 import { ProjectCategory, Quote } from './types';
 import { cmsService } from './services/storage';
